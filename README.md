@@ -6,6 +6,9 @@
 
 
 ## 사용 방법
+```shell
+pip install PyTistory
+```
 
 함수 인자에 대한 설명은 [Tistory Open API](https://tistory.github.io/document-tistory-apis/) 참고
 ```python
