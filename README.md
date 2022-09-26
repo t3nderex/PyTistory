@@ -10,8 +10,20 @@
 pip install PyTistory
 ```
 
+### 액세스 토큰 자동으로 가져오기
+```python
+from PyTistory import auto_auth
+token = get_access_token(id = '', pw = '', client_id = '',
+                         client_secret = '', redirect_uri = '')
+```
+
+
+
+### 티스토리 API 요청
 함수 인자에 대한 설명은 [Tistory Open API](https://tistory.github.io/document-tistory-apis/) 참고
 ```python
+import PyTistory
+
 # 인스턴스 초기화
 tistory = PyTistory(Access Token)
 
@@ -50,6 +62,3 @@ tistory.get_comment_newest(count = ,page = )
 ```
 
 
-## 📢 TOD 
- - 예외처리
- - 패키지 구성(PyPi 업로드)
