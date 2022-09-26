@@ -17,7 +17,6 @@ def call_api(req_method,return_type = 'text'):
             data = api_func(*args,**kwargs)
             url = data['url']
             params = data['params']
-
             try:
                 if 'files' in data:
                     files = data['files']
@@ -37,6 +36,7 @@ def call_api(req_method,return_type = 'text'):
                 print(f'Other error occurred: {err}')
         return request_
     return wrapper
+
 
 
 class PyTistory():
