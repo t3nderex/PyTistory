@@ -6,8 +6,9 @@
 
 
 ## 사용 방법
+~~PyTistory 패키지 이름 뺏김~~
 ```shell
-pip install PyTistory
+pip install Python-Tistory
 ```
 
 ### 액세스 토큰 자동으로 가져오기
