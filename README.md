@@ -38,7 +38,7 @@ content = tistory.read_post(post_id =)
 tistory.write_post(title = ,content = ,visibility = ,category_id = ,published = ,slogan = ,tag = ,accept_comment = ,password = )
 
 # 게시글 수정
-#tistory.modify_post(post_id = , title = ,content = ,visibility = ,category_id = ,published = ,slogan = ,tag = ,accept_comment = ,password = )
+tistory.modify_post(post_id = , title = ,content = ,visibility = ,category_id = ,published = ,slogan = ,tag = ,accept_comment = ,password = )
 
 # 카테고리 목록 가져오기
 category = tistory.get_category()
@@ -47,7 +47,7 @@ category = tistory.get_category()
 tistory.post_attach(file_path ='')
 
 # 댓글 삭제
-# tistory.comment_delete(post_id = ,comment_id = )
+tistory.comment_delete(post_id = ,comment_id = )
 
 # 댓글 수정
 tistory.comment_modify(post_id = comment_id = ,content = ,secret = ,parent_id = )
